@@ -1,0 +1,5 @@
+META-INF\micronaut\io.micronaut.inject.BeanDefinitionReference\example.micronaut.$HelloController$Definition
+example\micronaut\$HelloController$Definition$Exec.class
+example\micronaut\$HelloController$Definition.class
+example\micronaut\HelloController.class
+example\micronaut\Application.class
