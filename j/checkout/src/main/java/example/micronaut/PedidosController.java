@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller("/examples")
-public class HelloController {
+public class PedidosController {
 
     private final List<Pedido> examples = new ArrayList<>();
 

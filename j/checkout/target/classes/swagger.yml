@@ -1,0 +1,82 @@
+openapi: 3.0.1
+info:
+  title: Example API
+  description: API para gerenciar exemplos
+  version: 1.0.0
+paths:
+  /examples:
+    get:
+      summary: Retrieve all examples
+      description: Returns a list of all examples
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+    post:
+      summary: Create a new example
+      description: Adds a new example to the list
+      requestBody:
+        id:
+          application/json:
+            schema:
+              type: string
+        item:
+          application/json:
+            schema:
+              type: string
+        preco:
+          application/json:
+            schema:
+              type: number
+        quantidade:
+          application/json:
+            schema:
+              type: integer
+        required: true
+      responses:
+        '201':
+          description: Example created successfully
+  /examples/{index}:
+    put:
+      summary: Update an example
+      description: Updates an example at the specified index
+      parameters:
+        - name: index
+          in: path
+          required: true
+          description: Index of the example to update
+          schema:
+            type: integer
+            minimum: 0
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+        required: true
+      responses:
+        '200':
+          description: Example updated successfully
+        '404':
+          description: Index not found
+    delete:
+      summary: Delete an example
+      description: Deletes an example at the specified index
+      parameters:
+        - name: index
+          in: path
+          required: true
+          description: Index of the example to delete
+          schema:
+            type: integer
+            minimum: 0
+      responses:
+        '200':
+          description: Example deleted successfully
+        '404':
+          description: Index not found

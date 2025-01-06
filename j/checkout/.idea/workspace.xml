@@ -5,17 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07645685-33bb-49a5-b789-797181373644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/micronaut/PedidosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/micronaut/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/micronaut/DefaultTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/micronaut/HelloControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/example.micronaut.$HelloController$Definition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/micronaut/$HelloController$Definition$Exec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/micronaut/$HelloController$Definition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/micronaut/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -39,17 +55,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
+    "JUnit.PedidosControllerTest.executor": "Run",
     "Maven.default [clean].executor": "Run",
     "Maven.default [compile].executor": "Run",
+    "Maven.default [install].executor": "Run",
+    "Maven.default [package].executor": "Run",
+    "Maven.default [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/code/java-node/README.md"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="example.micronaut" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="example.micronaut" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PedidosControllerTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.micronaut.Application" />
       <module name="default" />
@@ -63,8 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PedidosControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="default" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.micronaut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.micronaut" />
+      <option name="MAIN_CLASS_NAME" value="example.micronaut.PedidosControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PedidosControllerTest" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
